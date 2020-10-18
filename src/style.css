@@ -422,6 +422,33 @@ image:hover h2 {
   padding: 0;
 }
 
+.footer-section {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  text-align: center;
+  padding: 100px;
+}
+
+.fab {
+  color: #212529;
+  font-size: 25px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.fab:hover {
+  color: #848383;
+}
+
+.footer-text a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #848383;
+}
+
 /*== Mobile Only ==*/
 @media screen and (max-width: 736px) {
   .home-area {
