@@ -423,6 +423,8 @@ image:hover h2 {
 }
 
 .footer-section {
+    background-color: #efefef;
+
   font-family: "Lato", sans-serif;
   font-size: 12px;
   text-align: center;
@@ -471,10 +473,6 @@ image:hover h2 {
 @media screen and (max-width: 1024px) {
   .home-area .home-content {
     margin-top: 80px;
-  }
-
-  .exp-block {
-    margin-top: 200px;
   }
 }
 
@@ -527,30 +525,6 @@ image:hover h2 {
     top: 0;
     right: 0;
   }
-
-  /*experience*/
-  .experience-area .btn {
-    margin-bottom: 40px;
-  }
-
-  /*clients*/
-  .clients-area .section-heading .section-title,
-  .clients-area .section-description {
-    text-align: center;
-  }
-
-  .clients-area .testimonial-carousel {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-
-  .exp-content {
-    text-align: center;
-  }
-
-  .exp-block {
-    margin-top: 20px;
-  }
 }
 
 /* Tablet (portrait) */
@@ -569,36 +543,6 @@ image:hover h2 {
   .home-area .button-area {
     margin: 0 auto;
     width: 295px;
-  }
-
-  /*contact*/
-  .contact-info {
-    margin-bottom: 35px;
-  }
-
-  /*footer*/
-  .footer-logo-holder img {
-    margin: 0 auto;
-    margin-bottom: 15px;
-  }
-
-  .footer-about-txt p {
-    text-align: center;
-  }
-
-  .footer-social {
-    margin: 0 auto;
-    width: 122px;
-    margin-top: 30px;
-  }
-
-  footer .copy-txt {
-    text-align: center;
-    line-height: 25px;
-  }
-
-  .exp-block {
-    margin-top: 20px;
   }
 }
 
@@ -634,45 +578,5 @@ image:hover h2 {
 
   .about-area .about-info li {
     width: 100%;
-  }
-
-  .contact-form {
-    padding: 50px 20px;
-  }
-
-  .services-area {
-    background-size: contain;
-  }
-
-  /*client*/
-  .clients-area {
-    background-position: center;
-  }
-
-  .clients-area .counter-area .icon-box {
-    float: none;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-
-  .clients-area .counter-area .counter {
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .clients-area .counter-area .counter .description {
-    margin-top: 5px;
-  }
-
-  .about-area .btn:last-child {
-    margin-right: 0;
-  }
-
-  .btn {
-    font-size: 13px;
-  }
-  .exp-block {
-    margin-top: 20px;
   }
 }
