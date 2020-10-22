@@ -1,3 +1,6 @@
+body, html {
+  height: 100%;
+}
 .header-area {
   width: 100%;
   right: 0;
@@ -123,14 +126,18 @@ label input {
   border-bottom: 0 solid #ddd;
 }
 
-.main-content {
-  background-size: 740px 800px;
+.bg {
+  background-image: url("https://i.ibb.co/V3w3mMs/thriftybackground.jpg");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: right top;
-  overflow: hidden;
-  padding: 120px 50px 50px 50px;
-  z-index: 2;
+  background-size: cover;
 }
+
+.main-content {
+  margin-top: 30px;
+}
+
 
 .service-content {
   margin-bottom: 50px;
@@ -152,16 +159,8 @@ label input {
   text-align: center;
 }
 
-.services-title h3{
-  font-family:"Montserrat", sans-serif; ;
-  font-weight:700;
-  text-align: center;
-  margin-bottom: 30px;
-}
 
-.web-box:hover {
-  background-color: pink;
-}
+/* Footer */
 
 .contact-link {
   color: #212529;
@@ -198,15 +197,4 @@ label input {
 
 .footer-text a:hover {
   color: #848383;
-}
-
-/*== Mobile Only ==*/
-@media screen and (max-width: 736px) {
-.main-image img {
-  width: 100%;
-}
-
-.service-content {
-  width: 80%;
-}
 }
