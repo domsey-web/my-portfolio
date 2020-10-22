@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
 }
+
 .header-area {
   width: 100%;
   right: 0;
@@ -132,6 +133,14 @@ label input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.65;
+  transition: all 200ms ease-in-out;
+
+}
+
+.bg:hover {
+  opacity: 100;
+
 }
 
 .main-content {
@@ -154,11 +163,29 @@ label input {
 
 }
 
-.row h2, h5, p {
+.row h2, h4, p {
   font-family: "Lato", sans-serif;
   text-align: center;
 }
 
+.row .project-image img{
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+hr {
+  border-color: #feec4f;
+  border-width: 3px;
+  width: 660px;
+}
 
 /* Footer */
 
@@ -197,4 +224,22 @@ label input {
 
 .footer-text a:hover {
   color: #848383;
+}
+
+@media screen and (max-width: 736px) {
+.main-image img {
+  width: 100%;
+}
+
+.service-content {
+  width: 80%;
+}
+
+iframe {
+  width: 80%;
+}
+
+hr {
+  width: 80%;
+}
 }
