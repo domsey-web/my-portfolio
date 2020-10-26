@@ -210,3 +210,60 @@ label input {
   width: 80%;
 }
 }
+
+
+/* Tablet (landscape) */
+@media screen and (max-width: 991px) {
+  /*home area*/
+  .home-area .image-item {
+    width: 50%;
+  }
+
+  /*header*/
+  .navbar {
+    padding: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  .menu {
+    left: 0;
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 40px;
+    position: relative;
+  }
+
+  .menu li a {
+    color: #333;
+    line-height: 45px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .menu li a.active,
+  .menu li a:active,
+  .menu li a:focus,
+  .menu li a:hover {
+    color: #fa5279;
+  }
+
+  .menu li a:before {
+    display: none;
+  }
+
+  .header-area .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+
+  .footer-section {
+  padding: 30px;
+}
+}

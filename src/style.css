@@ -419,6 +419,10 @@ image:hover h2 {
   transform: translate3d(0, 0, 0);
 }
 
+.image:hover {
+  cursor: pointer;
+}
+
 .row {
   margin-right: 0;
 }
@@ -583,4 +587,7 @@ image:hover h2 {
   .about-area .about-info li {
     width: 100%;
   }
+  .footer-section {
+  padding: 30px;
+}
 }
