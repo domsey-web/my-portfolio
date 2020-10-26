@@ -1,6 +1,5 @@
-html {
-  scroll-behavior: smooth;
-
+body, html {
+  height: 100%;
 }
 
 .header-area {
@@ -128,46 +127,14 @@ label input {
   border-bottom: 0 solid #ddd;
 }
 
-.main-content {
-  background-size: 740px 800px;
-  background-repeat: no-repeat;
-  background-position: right top;
-  overflow: hidden;
-  padding: 120px 50px 50px 50px;
-  z-index: 2;
+
+.main-content iframe {
+    margin-top: 70px;
 }
 
-.service-content {
-  margin-bottom: 50px;
-}
 
-.row .services-section {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.row h1 {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  margin-bottom: 30px;
 
-}
-
-.row h2, h5, .about-para {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  text-align: center;
-}
-
-.services-title h3{
-  font-family:"Montserrat", sans-serif; ;
-  font-weight:700;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.web-box:hover {
-  background-color: pink;
-}
+/* Footer */
 
 .contact-link {
   color: #212529;
@@ -182,6 +149,7 @@ label input {
   background-color: #efefef;
   font-family: "Lato", sans-serif;
   font-size: 12px;
+  margin-top: 20px;
   text-align: center;
   padding: 100px;
 }
@@ -206,8 +174,11 @@ label input {
   color: #848383;
 }
 
-/*== Mobile Only ==*/
 @media screen and (max-width: 736px) {
+body, html {
+  height: 50%;
+}
+
 .main-image img {
   width: 100%;
 }
@@ -215,8 +186,19 @@ label input {
 .service-content {
   width: 80%;
 }
+
+iframe {
+  width: 80%;
 }
 
+hr {
+  width: 80%;
+}
+
+.footer-section {
+  padding: 30px;
+}
+}
 
 /* Tablet (landscape) */
 @media screen and (max-width: 991px) {
@@ -263,13 +245,4 @@ label input {
     top: 0;
     right: 0;
   }
-}
-
-
-/*Mobile*/
-@media screen and (max-width: 480px) {
-
-  .footer-section {
-  padding: 30px;
-}
 }

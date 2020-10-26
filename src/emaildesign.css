@@ -1,6 +1,5 @@
-html {
-  scroll-behavior: smooth;
-
+body, html {
+  height: 100%;
 }
 
 .header-area {
@@ -128,13 +127,27 @@ label input {
   border-bottom: 0 solid #ddd;
 }
 
-.main-content {
-  background-size: 740px 800px;
+.bg {
+  background-image: url("https://i.ibb.co/V3w3mMs/thriftybackground.jpg");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: right top;
-  overflow: hidden;
-  padding: 120px 50px 50px 50px;
-  z-index: 2;
+  background-size: cover;
+  opacity: 0.65;
+  transition: all 200ms ease-in-out;
+
+}
+
+.bg:hover {
+  opacity: 100;
+
+}
+
+.main-content {
+  margin-top: 30px;
+  font-family:"Lato", sans-serif;
+  font-weight: 300;
+
 }
 
 .service-content {
@@ -147,27 +160,54 @@ label input {
 }
 .row h1 {
   font-family: "Montserrat", sans-serif;
+  font-size: 24px;
   text-align: center;
   margin-bottom: 30px;
 
 }
 
-.row h2, h5, .about-para {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+.row h2, h4, p {
   text-align: center;
 }
 
-.services-title h3{
-  font-family:"Montserrat", sans-serif; ;
-  font-weight:700;
-  text-align: center;
-  margin-bottom: 30px;
+.row .project-image img{
+  border-radius: 24px;
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
 }
 
-.web-box:hover {
-  background-color: pink;
+.project-link {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }
+.project-link p {
+  text-align: center;
+}
+
+.project-link p a {
+  color: #212529;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.project-link p a:hover {
+  color: #717273;
+}
+
+
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 80%;
+}
+
+
+
+/* Footer */
 
 .contact-link {
   color: #212529;
@@ -182,6 +222,7 @@ label input {
   background-color: #efefef;
   font-family: "Lato", sans-serif;
   font-size: 12px;
+  margin-top: 20px;
   text-align: center;
   padding: 100px;
 }
@@ -206,8 +247,11 @@ label input {
   color: #848383;
 }
 
-/*== Mobile Only ==*/
 @media screen and (max-width: 736px) {
+body, html {
+  height: 50%;
+}
+
 .main-image img {
   width: 100%;
 }
@@ -215,8 +259,19 @@ label input {
 .service-content {
   width: 80%;
 }
+
+iframe {
+  width: 80%;
 }
 
+hr {
+  width: 80%;
+}
+
+.footer-section {
+  padding: 30px;
+}
+}
 
 /* Tablet (landscape) */
 @media screen and (max-width: 991px) {
@@ -263,13 +318,4 @@ label input {
     top: 0;
     right: 0;
   }
-}
-
-
-/*Mobile*/
-@media screen and (max-width: 480px) {
-
-  .footer-section {
-  padding: 30px;
-}
 }
