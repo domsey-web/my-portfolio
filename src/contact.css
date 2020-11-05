@@ -179,22 +179,6 @@ body, html {
   height: 50%;
 }
 
-.main-image img {
-  width: 100%;
-}
-
-.service-content {
-  width: 80%;
-}
-
-iframe {
-  width: 80%;
-}
-
-hr {
-  width: 80%;
-}
-
 .footer-section {
   padding: 30px;
 }

@@ -128,7 +128,7 @@ label input {
 }
 
 .bg {
-  background-image: url("https://i.ibb.co/V3w3mMs/thriftybackground.jpg");
+  background-image: url("https://i.ibb.co/Fw5qvZL/emailbackground.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -150,14 +150,6 @@ label input {
 
 }
 
-.service-content {
-  margin-bottom: 50px;
-}
-
-.row .services-section {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
 .row h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -171,40 +163,10 @@ label input {
 }
 
 .row .project-image img{
-  border-radius: 24px;
   display: block;
   margin: 0 auto;
   max-width: 80%;
 }
-
-.project-link {
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-.project-link p {
-  text-align: center;
-}
-
-.project-link p a {
-  color: #212529;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.project-link p a:hover {
-  color: #717273;
-}
-
-
-
-iframe{
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: 80%;
-}
-
 
 
 /* Footer */
@@ -250,22 +212,6 @@ iframe{
 @media screen and (max-width: 736px) {
 body, html {
   height: 50%;
-}
-
-.main-image img {
-  width: 100%;
-}
-
-.service-content {
-  width: 80%;
-}
-
-iframe {
-  width: 80%;
-}
-
-hr {
-  width: 80%;
 }
 
 .footer-section {

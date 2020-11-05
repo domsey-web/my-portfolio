@@ -190,16 +190,6 @@ label input {
 }
 
 
-
-iframe{
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  max-width: 80%;
-}
-
-
-
 /* Footer */
 
 .contact-link {
@@ -247,18 +237,6 @@ body, html {
 
 .main-image img {
   width: 100%;
-}
-
-.service-content {
-  width: 80%;
-}
-
-iframe {
-  width: 80%;
-}
-
-hr {
-  width: 80%;
 }
 
 .footer-section {
