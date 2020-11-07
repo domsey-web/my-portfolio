@@ -415,10 +415,19 @@ img {
 }
 
 .colour2 {
-background-color: rgba(223, 225, 246, 0.81)}
+background-color: rgba(223, 225, 246, 0.81)
+}
+
+.colour3 {
+  background-color:rgba(29, 111, 174, 0.52)
+}
 
 .colour4 {
 background-color:rgba(194, 229, 227, 0.87);
+}
+
+.colour5 {
+  background-color: rgba(109, 109, 109, 0.52);
 }
 
 .image:hover {
