@@ -150,6 +150,10 @@ label input {
 
 }
 
+.main-content p {
+  text-align: left;
+}
+
 .row h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;

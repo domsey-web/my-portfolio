@@ -147,7 +147,10 @@ label input {
   margin-top: 30px;
   font-family:"Lato", sans-serif;
   font-weight: 300;
+}
 
+.main-content p {
+  text-align: left;
 }
 
 .row h1 {
