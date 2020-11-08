@@ -137,20 +137,28 @@ label input {
   z-index: 2;
 }
 
-.service-content {
-  margin-bottom: 50px;
+.row h1 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-content p {
+  text-align: left;
 }
 
 .row .services-section {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.row h1 {
-  font-family: "Montserrat", sans-serif;
-  text-align: center;
-  margin-bottom: 30px;
 
+.service-content {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.service-content {
+  text-align: center;
 }
 
 .row h2, h5, .about-para {
@@ -159,7 +167,7 @@ label input {
   text-align: center;
 }
 
-.services-title h3{
+h3 {
   font-family:"Montserrat", sans-serif; ;
   font-weight:700;
   text-align: center;
@@ -178,6 +186,9 @@ label input {
 .contact-link:hover {
   color: #212529;
 }
+
+
+/* Footer */
 
 .footer-section {
   background-color: #efefef;
