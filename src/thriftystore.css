@@ -147,6 +147,10 @@ label input {
   margin-top: 30px;
   font-family:"Lato", sans-serif;
   font-weight: 300;
+}
+
+.main-content p {
+  text-align: left;
 
 }
 
@@ -154,10 +158,6 @@ label input {
   margin-bottom: 50px;
 }
 
-.row .services-section {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
 .row h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 24px;
@@ -182,9 +182,6 @@ label input {
   margin: 0 auto;
   margin-top: 20px;
 }
-.project-link p {
-  text-align: center;
-}
 
 .project-link p a {
   color: #212529;
@@ -195,7 +192,6 @@ label input {
 .project-link p a:hover {
   color: #717273;
 }
-
 
 
 iframe{
@@ -254,15 +250,10 @@ body, html {
   width: 100%;
 }
 
-.service-content {
-  width: 80%;
+.project-link {
 }
 
 iframe {
-  width: 80%;
-}
-
-hr {
   width: 80%;
 }
 
