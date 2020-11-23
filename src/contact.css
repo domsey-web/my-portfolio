@@ -132,6 +132,10 @@ label input {
     margin-top: 70px;
 }
 
+p {
+  margin: 15px;
+  text-align: center;
+}
 
 
 /* Footer */
