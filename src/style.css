@@ -430,6 +430,14 @@ background-color:rgba(194, 229, 227, 0.87);
   background-color: rgba(109, 109, 109, 0.52);
 }
 
+.colour6 {
+background-color: #80a9d4;
+}
+
+.colour7 {
+background-color: #e5aebb;
+}
+
 .image:hover {
   cursor: pointer;
 }
