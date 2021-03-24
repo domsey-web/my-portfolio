@@ -228,6 +228,10 @@ iframe{
   text-decoration: none;
 }
 
+.fa-linkedin {
+  margin-right: 0px;
+}
+
 .fab:hover {
   color: #848383;
 }
@@ -248,9 +252,6 @@ body, html {
 
 .main-image img {
   width: 100%;
-}
-
-.project-link {
 }
 
 iframe {
@@ -307,4 +308,15 @@ iframe {
     top: 0;
     right: 0;
   }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .logo-holder{
+  margin-bottom: 5px;
+}
+
+.footer-text{
+  margin-bottom: 5px;
+}
 }

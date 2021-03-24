@@ -205,6 +205,10 @@ h3 {
   text-decoration: none;
 }
 
+.fa-linkedin {
+  margin-right: 0px;
+}
+
 .fab:hover {
   color: #848383;
 }
@@ -283,5 +287,13 @@ h3 {
 
   .footer-section {
   padding: 30px;
+}
+
+.logo-holder{
+  margin-bottom: 5px;
+}
+
+.footer-text{
+  margin-bottom: 5px;
 }
 }

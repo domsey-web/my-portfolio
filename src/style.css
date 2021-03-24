@@ -465,6 +465,10 @@ background-color: #e5aebb;
   text-decoration: none;
 }
 
+.fa-linkedin {
+  margin-right: 0px;
+}
+
 .fab:hover {
   color: #848383;
 }
@@ -608,5 +612,13 @@ background-color: #e5aebb;
   }
   .footer-section {
   padding: 30px;
+}
+
+.logo-holder{
+  margin-bottom: 5px;
+}
+
+.footer-text{
+  margin-bottom: 5px;
 }
 }
