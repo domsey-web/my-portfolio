@@ -1,206 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-  <link rel="stylesheet" href="src/style.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;700;800&display=swap"
-    rel="stylesheet" />
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header class="header-area">
-    <div class="container">
-      <!-- Nav -->
-      <nav class="navbar navbar-expand-lg">
-        <!-- Logo -->
-        <!-- Logo ends! -->
-        <!--menu toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">
-            <i class="fas fa-bars"></i>
-          </span>
-        </button>
-        <!--menu toggler ends! -->
-        <!--menu -->
-        <div class="collapse navbar-collapse" id="menu">
-          <ul id="menu_scroll" class="navbar-nav menu">
-            <li><a href="#" class="scroll active">Home</a></li>
-            <li><a href="aboutme.html" class="scroll">About</a></li>
-            <li><a href="contact.html" class="scroll">Contact</a></li>
-          </ul>
-        </div>
-        <!--menu ends!-->
-
-        <!--Quote button-->
-        <a href="https://drive.google.com/file/d/1kexeWrPrp4UEZYkGwmltljGfQzxZzWJA/view?usp=sharing"
-          class="btn button-scheme" target="_blank">CV</a>
-      </nav>
-      <!-- Nav ends!-->
-    </div>
-  </header>
-  <!-- Home Starts! -->
-  <div id="home" class="home-area triangle-area parallax_img">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <!--Title text-->
-        <div class="col-12 col-md-6 col-lg-6 home-content text-left">
-          <!-- Super heading -->
-          <h5 class="greet">
-            Hi, my name is <strong>Dominique Seyi</strong>
-          </h5>
-          <!-- Super heading ends!-->
-          <!-- heading text -->
-          <h1 class="skills cd-headline letters scale">
-            <span>I'm a</span>
-            <span class="cd-words-wrapper">
-              <b class="is-visible">Developer</b>
-              <b>Designer</b>
+  <body>
+    <header class="header-area">
+      <div class="container">
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg">
+          <!-- Logo -->
+          <!-- Logo ends! -->
+          <!--menu toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <i class="fas fa-bars"></i>
             </span>
-          </h1>
-          <!-- heading text ends!-->
-          <!-- description -->
-          <p class="description">
-            I'm a web and digital designer, and front-end developer based in Bristol, UK. I create clean and beautiful
-            designs and bring them to life.
-          </p>
-          <!-- description ends!-->
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="select-project">
-    <h4>Select a Project Below</h4>
-  </div>
-  <!-- Header ends! -->
-  <!-- Projects begins -->
-  <div class="row">
-    <div class="col">
-      <a href="#">
-        <div class="image">
-          <img src="images/reactapp.png" class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour7"><a href="#">Coming soon</a></div>
-      </div>
-    </div>
-    <div class="col">
-      <a href="#">
-        <div class="image">
-          <img src="images/aurorahotels.jpg" class="portfolio-image" alt="moodboard" border="0" />
+          </button>
+          <!--menu toggler ends! -->
+          <!--menu -->
+          <div class="collapse navbar-collapse" id="menu">
+            <ul id="menu_scroll" class="navbar-nav menu">
+              <li><a href="#" class="scroll active">Home</a></li>
+              <li><a href="aboutme.html" class="scroll">About</a></li>
+              <li><a href="contact.html" class="scroll">Contact</a></li>
+            </ul>
+          </div>
+          <!--menu ends!-->
 
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour6"><a href="#">Coming soon</a></div>
+          <!--Quote button-->
+          <a href="#" class="btn button-scheme" target="_blank">CV</a>
+        </nav>
+        <!-- Nav ends!-->
       </div>
-    </div>
-
-  </div>
-  <div class="row">
-    <div class="col">
-      <a href="thriftystore.html">
-        <div class="image">
-          <img src="https://i.ibb.co/c8T2Ch8/thriftyproject.png" class="portfolio-image" alt="moodboard" border="0" />
-
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour1"><a href="thriftystore.html">See More</a></div>
-      </div>
-    </div>
-    <div class="col">
-      <a href="weatherapp.html">
-        <div class="image">
-          <img src="https://i.ibb.co/4mN4hYz/domweatherapp.jpg" class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour2"><a href="weatherapp.html">See More</a></div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <a href="branding.html">
-        <div class="image">
-          <img src="https://i.ibb.co/7ShRTLy/branding.jpg " class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour3"><a href="branding.html">See More</a></div>
-      </div>
-    </div>
-    <div class="col">
-      <a href="emaildesign.html">
-        <div class="image">
-          <img src="https://i.ibb.co/vBJgSN9/email.png" class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour4"><a href="emaildesign.html">See More</a></div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <a href="albumcovers.html">
-        <div class="image">
-          <img src="https://i.ibb.co/h8mVwPb/album.jpg" class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour4"><a href="albumcovers.html">See More</a></div>
-      </div>
-    </div>
-    <div class="col">
-      <a href="playlistcovers.html">
-        <div class="image">
-          <img src="https://i.ibb.co/Y0xdrgB/playlist.jpg" class="portfolio-image" alt="moodboard" border="0" />
-        </div>
-      </a>
-      <div class="middle">
-        <div class="text colour5"><a href="playlistcovers.html">See More</a></div>
-      </div>
-    </div>
-  </div>
-
-  <!--footer-->
-  <footer class="footer-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4 col-md-4 mb-sm-5 logo-holder">
-          <a href="https://www.instagram.com/dom_codes/" target="blank_"><i class="fab fa-instagram-square"></i></a>
-          <a href="https://twitter.com/dominique_seyi" target="blank_"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://www.linkedin.com/in/dominique-seyi/" target="blank_"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="col-sm-4 col-md-4 footer-text">
-          <a href="contact.html"> Start Your Project</a>
-        </div>
-        <div class="col-sm-4 col-md-4">
-          <div class="copyright-text">
-            <p>domseyi.com by Dominique Seyi © 2021</p>
+    </header>
+    <!-- Home Starts! -->
+    <div id="home" class="home-area triangle-area parallax_img">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <!--Title text-->
+          <div class="col-12 col-md-6 col-lg-6 home-content text-left">
+            <!-- Super heading -->
+            <h5 class="greet">
+              Hi, my name is <strong>Dominique Seyi</strong>
+            </h5>
+            <!-- Super heading ends!-->
+            <!-- heading text -->
+            <h1 class="skills cd-headline letters scale">
+              <span>I'm a</span>
+              <span class="cd-words-wrapper">
+                <b class="is-visible">Developer</b>
+                <b>Designer</b>
+              </span>
+            </h1>
+            <!-- heading text ends!-->
+            <!-- description -->
+            <p class="description">
+              I'm a web and digital designer, and front-end developer based in
+              Bristol, UK. I create clean and beautiful designs and bring them
+              to life.
+            </p>
+            <!-- description ends!-->
           </div>
         </div>
       </div>
     </div>
-  </footer>
-  <script src="src/script.js"></script>
-</body>
+    <div class="select-project">
+      <h4>Select a Project Below</h4>
+    </div>
+    <!-- Header ends! -->
+    <!-- Projects begins -->
+    <div class="row">
+      <div class="col">
+        <a href="#">
+          <div class="image">
+            <img
+              src="images/reactapp.png"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour7"><a href="#">Coming soon</a></div>
+        </div>
+      </div>
+      <div class="col">
+        <a href="#">
+          <div class="image">
+            <img
+              src="images/aurorahotels.jpg"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour6"><a href="#">Coming soon</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="thriftystore.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/c8T2Ch8/thriftyproject.png"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour1">
+            <a href="thriftystore.html">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <a href="weatherapp.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/4mN4hYz/domweatherapp.jpg"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour2"><a href="weatherapp.html">See More</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="branding.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/7ShRTLy/branding.jpg "
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour3"><a href="branding.html">See More</a></div>
+        </div>
+      </div>
+      <div class="col">
+        <a href="emaildesign.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/vBJgSN9/email.png"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour4">
+            <a href="emaildesign.html">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="albumcovers.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/h8mVwPb/album.jpg"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour4">
+            <a href="albumcovers.html">See More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <a href="playlistcovers.html">
+          <div class="image">
+            <img
+              src="https://i.ibb.co/Y0xdrgB/playlist.jpg"
+              class="portfolio-image"
+              alt="moodboard"
+              border="0"
+            />
+          </div>
+        </a>
+        <div class="middle">
+          <div class="text colour5">
+            <a href="playlistcovers.html">See More</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!--footer-->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 mb-sm-5 logo-holder">
+            <a href="https://www.instagram.com/dom_codes/" target="blank_"
+              ><i class="fab fa-instagram-square"></i
+            ></a>
+            <a href="https://twitter.com/dominique_seyi" target="blank_"
+              ><i class="fab fa-twitter-square"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/dominique-seyi/"
+              target="blank_"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="col-sm-4 col-md-4 footer-text">
+            <a href="contact.html"> Start Your Project</a>
+          </div>
+          <div class="col-sm-4 col-md-4">
+            <div class="copyright-text">
+              <p>domseyi.com by Dominique Seyi © 2021</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="src/script.js"></script>
+  </body>
 </html>
