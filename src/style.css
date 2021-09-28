@@ -359,6 +359,33 @@ img {
   width: 100%;
 }
 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 540px;
+}
+.image img {
+  max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
 .middle {
   opacity: 0;
   position: absolute;
@@ -409,6 +436,7 @@ img {
   border-radius: 35px;
   font-size: 12px;
   padding: 10px 21px;
+  font-weight: 600;
 }
 
 .colour1 {
@@ -420,23 +448,23 @@ img {
 }
 
 .colour3 {
-  background-color: rgba(29, 111, 174, 0.52);
+  background-color: rgba(252, 231, 218, 0.82);
 }
 
 .colour4 {
-  background-color: rgba(194, 229, 227, 0.87);
+  background-color: rgba(206, 220, 255, 0.76);
 }
 
 .colour5 {
-  background-color: rgba(109, 109, 109, 0.52);
+  background-color: rgba(255, 180, 198, 0.75);
 }
 
 .colour6 {
-  background-color: #80a9d4;
+  background-color: rgba(227, 193, 242, 0.79);
 }
 
 .colour7 {
-  background-color: #e5aebb;
+  background-color: #ffffff;
 }
 
 .image:hover {

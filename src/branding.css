@@ -130,8 +130,8 @@ label input {
 }
 
 .bg {
-  background-image: url("https://i.ibb.co/FVzfKqV/brandingbackground.jpg");
-  height: 100%;
+  background-color: white;
+  height: 16%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,7 +220,7 @@ p {
 @media screen and (max-width: 736px) {
   body,
   html {
-    height: 50%;
+    height: 90%;
   }
 
   .footer-section {
