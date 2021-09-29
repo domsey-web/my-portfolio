@@ -446,6 +446,12 @@ img {
   font-weight: 600;
 }
 
+a .mobile-project-titles {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
 .colour1 {
   background-color: rgba(254, 236, 78, 0.8);
 }
