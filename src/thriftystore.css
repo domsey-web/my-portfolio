@@ -312,11 +312,23 @@ iframe {
 
 /*Mobile*/
 @media screen and (max-width: 480px) {
+  .bg {
+    background-image: none;
+    background-color: #ffffff;
+    height: 30%;
+  }
+
   .logo-holder {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+  }
+
+  .fab {
+    font-size: 44px;
+    margin: 0 20px 0 20px;
   }
 
   .footer-text {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 }

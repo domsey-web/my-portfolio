@@ -658,10 +658,16 @@ a .mobile-project-titles {
   }
 
   .logo-holder {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+  }
+
+  .fab {
+    font-size: 44px;
+    margin: 0 20px 0 20px;
   }
 
   .footer-text {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
 }
