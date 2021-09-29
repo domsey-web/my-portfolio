@@ -432,6 +432,11 @@ img {
   opacity: 1;
 }
 
+.col-md-6 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
 .text {
   border-radius: 35px;
   font-size: 12px;
@@ -626,6 +631,7 @@ img {
   .home-area .description {
     font-size: 14px;
     line-height: 21px;
+    padding: 0 15px;
   }
 
   .home-area .home-content {
