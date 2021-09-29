@@ -424,11 +424,13 @@ img {
   text-decoration: none;
 }
 
-.col:hover .image {
-  opacity: 0.3;
+.col-12,
+.col-md-6:hover .image {
+  opacity: 0.65;
 }
 
-.col:hover .middle {
+.col-12,
+.col-md-6:hover .middle {
   opacity: 1;
 }
 
